@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+ 
+
+  <title>Who's Rémi?</title>
+</head>
+<body>
+
+<!-- START OF THE NAV BAR -->
+
+<!-- Add Media Query to have nav bar fixed on top of screen -->
+  
+<nav class="nav">
+    <ul>
+      <li>
+        <a href="index.html">Projects</a>
+       </li>
+       <li>
+        <a href="about.html">About</a>
+       </li>
+       <li>
+        <a href="contact.html">Contact</a>
+       </li>
+    </ul>
+  </nav>
+
+<!-- END OF THE NAV BAR -->
+  
+<!-- START HEADER // BACKGROUND -->
+
+<!-- Add Media Query to center h1+h2 above each other -->
+
+    <header class="header header__home">
+      <div class="header__main">
+        <h1>Rémi Hoëppe</h1>
+        <h2>Software Engineer (To Be)</h2>
+      </div>
+    </header>
+
+<!-- END HEADER // BACKGROUND -->
+
+<!-- START OF MAIN PART SECTIONS -->
+<!-- Media query on <a> to turn off flex on anchcor tag
+  + set width of image to appropiate size
+    + increase font size for h1 + h2
+    + center text + 
+    reduce maring/padding -->
+
+  <div class="container">
+    
+    <section class="section">
+
+      <div class="section__frame">
+       <a href="project1.html"> 
+         <img src="Images/frame2.jpg">
+          <div class="section__text">
+            <h1>My First Project</h1>
+            <h2>Calculator</h2>
+            <h3>HTML, CSS/SCSS, JavaScript</h3>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section__frame">
+        <a href="project2.html">
+          <img src="Images/frame3.jpg">
+          <div class="section__text">
+            <h1>My Second Project</h1>
+            <h2>Ruby on Rails, Python, jNode</h2>
+
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section__frame">
+        <a href="project3.html">
+        <img src="Images/frame4.jpg">
+        
+        
+        <div class="section__text">
+          <h1>My Third Project</h1>
+          <h2>PHP, jQuery, SCSS</h2>
+        </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section__frame">
+        <a href="project4.html">
+        <img src="Images/frame5.jpg">
+        
+        <div class="section__text">
+
+          <h1>My Fourth Project</h1>
+          <h2>Other Tech Staks I have yet to learn about</h2>
+
+        </div>
+        </a>
+      </div>
+    </section>
+  
+  </div>
+
+<!-- END OF MAIN PART SECTIONS -->
+
+
+    <div class="row">
+      <div class="col">
+        <p class="footer__text">
+          Crafted by R.H.L. <i class="fas fa-copyright"></i> 
+          <script>document.write(new Date().getFullYear())</script>
+          / Powered by Single Origin Coffee and Sheer Will</p>
+      </div>
+    </div>
+  
+
+</body>
+</html>

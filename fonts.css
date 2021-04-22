@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Bambino-New;
+    src: url(Font/BambinoNew-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: Bambino-New;
+    src: url(Font/BambinoNew-Bold.ttf);
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: Bambino-New;
+    src: url(Font/BambinoNew-Thin.ttf);
+    font-weight: thin;
+  }
+
+  @font-face {
+    font-family: Bambino-New;
+    src: url(Font/BambinoNew-BlackItalic.ttf);
+    font-weight: 700;
+    font-style: italic;
+  }

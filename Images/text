@@ -1,0 +1,39 @@
+    <main class="sections">
+
+      <div class="sections__frame1--background">
+        <!-- <img src="Images/himeji-castle.jpg"> -->
+      <div class="project-text">
+        <h1 class="project-header">My First Project</h1>
+        <p>HTML, CSS, JavaScript</p>
+      </div>
+      </div>
+
+      <div class="section">
+        <img src="Images/osaka-tower.jpg">
+        <h1 class="project-header">My second Project</h1>
+        <p>Ruby on Rails, Python, jNode</p>
+      </div>
+
+      <div class="section">
+        <img src="Images/kyoto-golden-temple.jpg">
+        <h1 class="project-header">My Third project</h1>
+        <p>PHP, jQuery, SCSS</p>
+      </div>
+
+      <div class="section">
+        <img src="Images/hakodate.jpg">
+        <h1 class="project-header">My Fourth project</h1>
+        <p>Other Tech Staks I have yet to learn about</p>
+      </div>
+
+
+      <div class="about">
+        <h1 class="about__header">ABOUT ME</h1>
+        <p>Learn More</p>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text">Crafted by R.H.L. / Powered by Single Origin Coffee and Sheer Will</p>
+    </footer>
+  </div>
